@@ -400,7 +400,7 @@ function! AutoPairsReturn()
     if &filetype == 'coffeescript' || &filetype == 'coffee'
       return "\<ESC>k==o".cmd
     else
-      return "\<ESC>=ko".cmd
+      return "\<ESC>===ko".cmd
     endif
   end
   return ''
